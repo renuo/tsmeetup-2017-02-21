@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noEmitHelpers": true,
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": false,
+    "skipLibCheck": false,
+    "types": [
+      "jasmine",
+      "node",
+      "selenium-webdriver"
+    ]
+  },
+  "compileOnSave": false,
+  "buildOnSave": false
+}
