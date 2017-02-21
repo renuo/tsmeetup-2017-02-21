@@ -84,8 +84,7 @@
     "interface-over-type-literal": true,
     "jsdoc-format": false,
     "max-classes-per-file": [
-      true,
-      1
+      false // since this is a code example project
     ],
     "max-line-length": [
       true,
