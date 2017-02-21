@@ -8,7 +8,7 @@
     "noEmitHelpers": true,
     "noImplicitAny": true,
     "noUnusedParameters": true,
-    "noUnusedLocals": true,
+    // "noUnusedLocals": true, // since this is a code example project
     "strictNullChecks": false,
     "skipLibCheck": false,
     "types": [

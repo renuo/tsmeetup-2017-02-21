@@ -7,14 +7,11 @@ import { FakeApiModel } from './fake-api.model';
 const mostComplicated: number[] = new FakeApi().all().map((fakeApiModel: FakeApiModel) => {
   return fakeApiModel.id;
 });
-console.log(mostComplicated);
 
 // Variant 2: (type is inferred)
 const lessComplicated: number[] = new FakeApi().all().map(fakeApiModel => {
   return fakeApiModel.id;
 });
-console.log(lessComplicated);
 
 // Variant 3: (simplest)
 const simple: number[] = new FakeApi().all().map(fakeApiModel => fakeApiModel.id);
-console.log(simple);

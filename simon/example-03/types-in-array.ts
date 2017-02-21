@@ -41,6 +41,3 @@ const wrongArrayWithDifferentTypes: ArrayWithDifferentTypes = {
     }
   ]
 };
-
-console.log(arrayWithDifferentTypes.id);
-console.log(wrongArrayWithDifferentTypes.id);

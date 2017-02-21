@@ -11,5 +11,3 @@ export const publicCustomerMockJSON: PublicCustomerApiObject = {
     country: 'Schweiz'
   }
 };
-
-console.log(publicCustomerMockJSON.attributes.firstName);
