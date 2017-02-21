@@ -16,6 +16,7 @@ makeSound(duck);
 export class Bunny {
   constructor(public name: string) {}
 
+  // unused method?
   sound() {
     console.log(`Hop from ${this.name} Bunny`);
   }
@@ -29,3 +30,4 @@ const mouse = {name: 'Mickey', sound: () => console.log(`Hello from Mickey Mouse
 // this works, because the object "interface" {name: string; sound: (() => void)}
 // is the same as the Duck "interface"
 makeSound(mouse);
+
